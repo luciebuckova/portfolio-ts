@@ -20,9 +20,9 @@ export default function Projects() {
           <Card
             title="👆 Tento web"
             description="Můj osobní web vytvořený pomocí Reactu a Next.js, na kterém dále pracuji."
-            linkWeb="https://my-app-henna-two.vercel.app/"
-            linkRepo="https://github.com/luciebuckova/my-app"
-            stack={['React', 'JavaScript', 'Tailwind CSS', 'Next.js', 'MUI']}
+            linkWeb="https://portfolio-ts-theta-hazel.vercel.app/"
+            linkRepo="https://github.com/luciebuckova/portfolio-ts"
+            stack={['React', 'TypeScript', 'Tailwind CSS', 'Next.js', 'MUI']}
           />
         </li>
         <li>

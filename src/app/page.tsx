@@ -5,7 +5,12 @@ import About from '@/layouts/About';
 import Projects from '@/layouts/Projects';
 import Contact from '@/layouts/Contact';
 import ScrollToTopOnRefresh from '@/components/ScrollToTopOnRefresh';
-import AnimatedCursor from 'react-animated-cursor';
+import dynamic from 'next/dynamic';
+
+//@ts-ignore
+const AnimatedCursor = dynamic(() => import('react-animated-cursor'), {
+  ssr: false,
+});
 
 export default function Home() {
   return (
