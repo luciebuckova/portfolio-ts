@@ -6,24 +6,32 @@ interface WindowSize {
 }
 
 export default function useWindowSize(): WindowSize {
-  const [windowSize, setWindowSize] = useState({
-    width: window.innerWidth,
-    height: window.innerHeight,
+  const [windowSize, setWindowSize] = useState<WindowSize>({
+    width: 0, // Default hodnoty šířky a výšky
+    height: 0,
   });
 
   useEffect(() => {
-    const handleResize = () => {
+    if (typeof window !== 'undefined') {
+      // Kód se spustí pouze v prostředí prohlížeče
       setWindowSize({
         width: window.innerWidth,
         height: window.innerHeight,
       });
-    };
 
-    window.addEventListener('resize', handleResize);
+      const handleResize = () => {
+        setWindowSize({
+          width: window.innerWidth,
+          height: window.innerHeight,
+        });
+      };
 
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
+      window.addEventListener('resize', handleResize);
+
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }
   }, []);
 
   return windowSize;
