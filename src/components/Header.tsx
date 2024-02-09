@@ -2,24 +2,12 @@ import { useState, useEffect } from 'react';
 import Menu from './Menu';
 import Hamburger from './Hamburger';
 import { IconMenuDeep } from '@tabler/icons-react';
+import useWindowSize from './UseWindowSize';
 
 export default function Header() {
   const [showNav, setShowNav] = useState(false);
-  const [isSmallScreen, setIsSmallScreen] = useState(false);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsSmallScreen(window.innerWidth <= 768);
-    };
-
-    window.addEventListener('resize', handleResize);
-
-    handleResize();
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
+  const { width } = useWindowSize();
+  const isSmallScreen = width <= 768;
 
   return (
     <header>
