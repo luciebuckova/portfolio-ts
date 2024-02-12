@@ -23,11 +23,9 @@ export default function Cursor() {
 
   return (
     <>
-      <div className="ball bg-purple-800 w-5 h-5"></div>
-      <div className="ball bg-purple-700 w-4 h-4"></div>
-      <div className="ball bg-purple-600 w-3 h-3"></div>
-      <div className="ball bg-purple-500 w-2 h-2"></div>
-      <div className="ball bg-purple-400 w-1 h-1"></div>
+      <div className="ball bg-purple-800 w-8 h-8"></div>
+      <div className="ball bg-purple-600 w-6 h-6"></div>
+      <div className="ball bg-purple-400 w-4 h-4"></div>
     </>
   );
 }

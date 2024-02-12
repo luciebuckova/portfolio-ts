@@ -6,8 +6,8 @@ interface WindowSize {
 }
 
 export default function useWindowSize(): WindowSize {
-  const [windowSize, setWindowSize] = useState<WindowSize>({
-    width: 0, // Default hodnoty šířky a výšky
+  const [windowSize, setWindowSize] = useState({
+    width: 0,
     height: 0,
   });
 
