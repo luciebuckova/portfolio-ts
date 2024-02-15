@@ -1,5 +1,4 @@
-import { IconBrandGithub } from '@tabler/icons-react';
-import { IconBrandLinkedin } from '@tabler/icons-react';
+import { IconBrandGithub, IconBrandLinkedin } from '@tabler/icons-react';
 
 const date = new Date();
 let year: number = date.getFullYear();

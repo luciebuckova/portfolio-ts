@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
-import Menu from './Menu';
-import Hamburger from './Hamburger';
+import { useState } from 'react';
+import Menu from './menu';
+import Hamburger from './hamburger';
 import { IconMenuDeep } from '@tabler/icons-react';
-import useWindowSize from './UseWindowSize';
+import useWindowSize from '../utils/useWindowSize';
 
 export default function Header() {
   const [showNav, setShowNav] = useState(false);

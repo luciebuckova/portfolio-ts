@@ -20,7 +20,11 @@ export default function Card({
         <p>{description}</p>
         <div className="mb-8 flex flex-wrap items-start justify-center gap-2">
           {stack.map((stackItem, index) => (
-            <Flag key={index}>{stackItem}</Flag>
+            <span
+              className="rounded-md bg-purple-300 p-2 dark:bg-purple-600"
+              key={index}>
+              {stackItem}
+            </span>
           ))}
         </div>
       </div>
@@ -37,13 +41,5 @@ export default function Card({
         </a>
       </div>
     </div>
-  );
-}
-
-function Flag({ children }: { children: React.ReactNode }) {
-  return (
-    <span className="rounded-md bg-purple-300 p-2 dark:bg-purple-600">
-      {children}
-    </span>
   );
 }

@@ -1,5 +1,5 @@
 import { Element } from 'react-scroll';
-import ContactForm from '@/components/ContactForm';
+import ContactForm from '@/components/contactForm';
 
 export default function Contact() {
   return (

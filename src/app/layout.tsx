@@ -1,6 +1,6 @@
 import { Space_Grotesk } from 'next/font/google';
 import './globals.css';
-import App from './App';
+import Home from './page';
 
 interface Metadata {
   title: string;
@@ -50,10 +50,6 @@ export const metadata: Metadata = {
   }, */
 };
 
-interface RootLayoutProps {
-  children: React.ReactNode;
-}
-
-export default function RootLayout({ children }: RootLayoutProps) {
-  return <App font={spaceGrotesk.className}>{children}</App>;
+export default function RootLayout() {
+  return <Home font={spaceGrotesk.className} />;
 }

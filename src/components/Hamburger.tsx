@@ -1,7 +1,7 @@
 import { ReactElement } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 import { IconX } from '@tabler/icons-react';
-import UseSwitchesCustom from '@/components/UseSwitchesCustom';
+import UseSwitchesCustom from '@/utils/useSwitchesCustom';
 
 interface HamburgerProps {
   setShowNav: React.Dispatch<React.SetStateAction<boolean>>;
