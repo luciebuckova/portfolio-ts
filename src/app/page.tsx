@@ -1,8 +1,8 @@
 'use client';
 import { useState, createContext } from 'react';
-import useWindowSize from '@/utils/UseWindowSize';
+import useWindowSize from '@/utils/useWindowSize';
 import Cursor from '@/components/Cursor';
-import ScrollToTopOnRefresh from '@/utils/ScrollToTopOnRefresh';
+import ScrollToTopOnRefresh from '@/utils/scrollToTopOnRefresh';
 import DefaultLayout from '@/layouts/DefaultLayout';
 import Hero from '@/layouts/Hero';
 import About from '@/layouts/About';

@@ -1,5 +1,5 @@
 import { Link as ScrollLink } from 'react-scroll';
-import UseSwitchesCustom from '@/utils/UseSwitchesCustom';
+import UseSwitchesCustom from '@/utils/useSwitchesCustom';
 
 export default function Menu() {
   return (
