@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import { styled } from '@mui/system';
 import { useSwitch } from '@mui/base/useSwitch';
 import { useContext } from 'react';
-import { ModeContext } from '@/app/page';
+import { ModeContext } from '@/app/App';
 
 interface UseSwitchesCustomProps {}
 

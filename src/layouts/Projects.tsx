@@ -7,7 +7,13 @@ export default function Projects() {
       <h2>Projekty</h2>
       <p>
         Tady je pár projektů, na kterých jsem pracovala, a také technologie,
-        které jsem používala.
+        které jsem používala. Více malých i vetších projektů najdete na mém{' '}
+        <a
+          href="https://github.com/luciebuckova/"
+          className="text-teal-400 duration-300 hover:text-purple-600">
+          GitHubu
+        </a>
+        .
       </p>
       <ul className="mt-8 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         <li>
@@ -38,15 +44,6 @@ export default function Projects() {
           />
         </li>
       </ul>
-      <p>
-        Více malých i vetších projektů najdete na mém{' '}
-        <a
-          href="https://github.com/luciebuckova/"
-          className="text-teal-400 duration-300 hover:text-purple-600">
-          GitHubu
-        </a>
-        .
-      </p>
     </Element>
   );
 }

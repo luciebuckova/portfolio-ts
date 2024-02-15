@@ -13,7 +13,6 @@ export default function useWindowSize(): WindowSize {
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      // Kód se spustí pouze v prostředí prohlížeče
       setWindowSize({
         width: window.innerWidth,
         height: window.innerHeight,
