@@ -1,6 +1,5 @@
 import { Element } from 'react-scroll';
-import Card from '@/components/card';
-/* import RepoList from '@/components/repos'; */
+import Card from '@/components/Card';
 
 export default function Projects() {
   return (
@@ -48,7 +47,6 @@ export default function Projects() {
         </a>
         .
       </p>
-      {/* <RepoList /> */}
     </Element>
   );
 }

@@ -1,13 +1,13 @@
 'use client';
 import { useState, createContext } from 'react';
-import useWindowSize from '@/utils/useWindowSize';
-import Cursor from '@/components/cursor';
-import ScrollToTopOnRefresh from '@/utils/scrollToTopOnRefresh';
-import DefaultLayout from '@/layouts/defaultLayout';
-import Hero from '@/layouts/hero';
-import About from '@/layouts/about';
-import Projects from '@/layouts/projects';
-import Contact from '@/layouts/contact';
+import useWindowSize from '@/utils/UseWindowSize';
+import Cursor from '@/components/Cursor';
+import ScrollToTopOnRefresh from '@/utils/ScrollToTopOnRefresh';
+import DefaultLayout from '@/layouts/DefaultLayout';
+import Hero from '@/layouts/Hero';
+import About from '@/layouts/About';
+import Projects from '@/layouts/Projects';
+import Contact from '@/layouts/Contact';
 
 // Dark mode toggling using createContext
 type Mode = 'dark' | '';
