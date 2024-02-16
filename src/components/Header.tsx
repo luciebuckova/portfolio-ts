@@ -2,11 +2,11 @@ import { useState, useEffect } from 'react';
 import Menu from './Menu';
 import Hamburger from './Hamburger';
 import { IconMenuDeep } from '@tabler/icons-react';
-import useWindowSize from './UseWindowSize';
+import UseWindowSize from './UseWindowSize';
 
 export default function Header() {
   const [showNav, setShowNav] = useState(false);
-  const { width } = useWindowSize();
+  const { width } = UseWindowSize();
   const isSmallScreen = width <= 768;
 
   return (
