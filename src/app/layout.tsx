@@ -27,28 +27,22 @@ export const metadata: Metadata = {
   title: 'Lucie Bučková · frontend kodérka',
   description:
     'Jsem junior frontend kodérka. Zamilovala jsem si zejména tvorbu webů kombinací React a Tailwind CSS. Neustále na sobě pracuji a snažím se nejen v tomto směru posouvat vpřed.',
-  /* openGraph: {
-    title: "Lucie Bučková · frontend kodérka",
+  openGraph: {
+    title: 'Lucie Bučková · frontend kodérka',
     description:
-      "Jsem junior frontend kodérka. Zamilovala jsem si zejména tvorbu webů kombinací React a Tailwind CSS. Neustále na sobě pracuji a snažím se nejen v tomto směru posouvat vpřed.",
-    url: "",
-    siteName: "Lucie Bučková · frontend kodérka",
+      'Jsem junior frontend kodérka. Zamilovala jsem si zejména tvorbu webů kombinací React a Tailwind CSS. Neustále na sobě pracuji a snažím se nejen v tomto směru posouvat vpřed.',
+    url: 'https://www.luciebuckova.cz/',
+    siteName: 'Lucie Bučková · frontend kodérka',
     images: [
       {
-        url: "",
-        width: 800,
-        height: 600,
-      },
-      {
-        url: "",
-        width: 1800,
-        height: 1600,
-        alt: "My custom alt",
+        url: 'https://www.luciebuckova.cz/meta-image.webp',
+        width: 1200,
+        height: 625,
       },
     ],
-    locale: "cs_CZ",
-    type: "website",
-  }, */
+    locale: 'cs_CZ',
+    type: 'website',
+  },
 };
 
 export default function RootLayout() {

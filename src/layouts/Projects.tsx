@@ -18,11 +18,20 @@ export default function Projects() {
       <ul className="mt-8 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         <li>
           <Card
-            title="👆 Tento web"
+            title="👩‍💻 Tento web"
             description="Můj osobní web vytvořený pomocí Reactu a Next.js, na kterém dále pracuji."
             linkWeb="https://portfolio-ts-theta-hazel.vercel.app/"
             linkRepo="https://github.com/luciebuckova/portfolio-ts"
             stack={['React', 'TypeScript', 'Tailwind CSS', 'Next.js', 'MUI']}
+          />
+        </li>
+        <li>
+          <Card
+            title="😷 Zdravotnické potřeby"
+            description="Webové stránky pro prodejnu zdravotnických potřeb, na kterých aktuálně ještě pracuji."
+            linkWeb="https://zdravotnicke-potreby.vercel.app/"
+            linkRepo="https://github.com/luciebuckova/zdravotnicke-potreby"
+            stack={['React', 'TypeScript', 'Tailwind CSS']}
           />
         </li>
         <li>
