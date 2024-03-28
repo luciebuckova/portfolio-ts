@@ -1,21 +1,36 @@
 import { Element, Link as ScrollLink } from 'react-scroll';
 import { IconBrandGithub } from '@tabler/icons-react';
 import Image from 'next/image';
+import UseWindowSize from '@/components/UseWindowSize';
 
 export default function Hero() {
+  const { width } = UseWindowSize();
+  const isSmallScreen = width <= 768;
+
   return (
     <Element name="hero" className="pb-16 pt-20 md:py-32">
       <section>
         <h1>Lucie Bučková</h1>
         <h2>junior frontend kodérka</h2>
-        <Image
-          priority={true}
-          src="/me.webp"
-          width={350}
-          height={350}
-          alt="Obrázek zastupující foto autorky"
-          className="mx-auto rounded-full my-8 md:my-16 w-1/2 md:w-max"
-        />
+        {isSmallScreen ? (
+          <Image
+            priority={true}
+            src="/me-400px.webp"
+            width={200}
+            height={200}
+            alt="Foto autorky"
+            className="mx-auto rounded-full my-8 md:my-16"
+          />
+        ) : (
+          <Image
+            priority={true}
+            src="/me-700px.webp"
+            width={350}
+            height={350}
+            alt="Foto autorky"
+            className="mx-auto rounded-full my-8 md:my-16"
+          />
+        )}
         <p className="text-xl md:text-2xl">
           Jsem bývalá zubní lékařka na cestě stát se frontend vývojářkou.
           Neustále pracuji na svém profesním růstu, věnuji se novým výzvám a
