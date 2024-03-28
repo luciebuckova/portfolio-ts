@@ -28,7 +28,7 @@ export default function Home({ font }: AppProps) {
 
   return (
     <ModeContext.Provider value={toggleMode}>
-      <html lang="cs_CZ" className={mode}>
+      <html lang="cs" className={mode}>
         <body
           className={`${font} bg-neutral-50 bg-[url('/ssscribble.svg')] bg-cover bg-center bg-no-repeat text-neutral-950 dark:bg-neutral-950 dark:text-neutral-50`}>
           <ScrollToTopOnRefresh />
@@ -38,7 +38,7 @@ export default function Home({ font }: AppProps) {
             <Projects />
             <Contact />
           </DefaultLayout>
-          {isLargeScreen && <Cursor />}
+          {/*  {isLargeScreen && <Cursor />} */}
         </body>
       </html>
     </ModeContext.Provider>

@@ -4,13 +4,14 @@ import Card from '@/components/Card';
 export default function Projects() {
   return (
     <Element name="projects" className="min-h-screen py-8 md:py-32">
-      <h2>Projekty</h2>
+      <h3>Projekty</h3>
       <p>
         Tady je pár projektů, na kterých jsem pracovala, a také technologie,
         které jsem používala. Více malých i vetších projektů najdete na mém{' '}
         <a
           href="https://github.com/luciebuckova/"
-          className="text-teal-400 duration-300 hover:text-purple-600">
+          className="text-teal-400 duration-300 hover:text-purple-600"
+          aria-label="Github">
           GitHubu
         </a>
         .

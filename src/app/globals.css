@@ -4,13 +4,14 @@
 
 @layer base {
   h1,
-  h2 {
+  h3 {
     @apply text-5xl font-semibold uppercase text-teal-400;
   }
-  h3 {
+  h2,
+  h4 {
     @apply text-3xl font-medium;
   }
-  h4 {
+  h5 {
     @apply text-2xl font-medium;
   }
   p {

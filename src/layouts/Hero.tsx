@@ -11,15 +11,16 @@ export default function Hero() {
           src="/ccclaymoji.svg"
           width={350}
           height={350}
-          alt="Picture of the author"
+          alt="Obrázek zastupující foto autorky"
           className="mx-auto"
         />
         <h1>Lucie Bučková</h1>
-        <h3>junior frontend kodérka</h3>
+        <h2>junior frontend kodérka</h2>
         <div className="my-4 grid place-content-center">
           <a
             href="https://github.com/luciebuckova"
-            className="duration-300 hover:scale-110 hover:text-teal-400">
+            className="duration-300 hover:scale-110 hover:text-teal-400"
+            aria-label="GitHub">
             <IconBrandGithub size={32} stroke={1} />
           </a>
         </div>
@@ -36,7 +37,8 @@ export default function Hero() {
             smooth={true}
             duration={1000}
             className="btn-primary sm:w-1/2"
-            href="#contact">
+            href="#contact"
+            aria-label="Napište mi">
             Napište mi
           </ScrollLink>
           <ScrollLink
@@ -44,7 +46,8 @@ export default function Hero() {
             smooth={true}
             duration={1000}
             className="btn-secondary sm:w-1/2"
-            href="#about">
+            href="#about"
+            aria-label="Více o mně">
             Více o mně
           </ScrollLink>
         </div>

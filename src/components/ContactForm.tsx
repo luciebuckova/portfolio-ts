@@ -65,7 +65,8 @@ export default function ContactForm() {
         <button
           type="submit"
           disabled={state.submitting}
-          className="btn-primary mt-8">
+          className="btn-primary mt-8"
+          aria-label="Odeslat">
           Odeslat
         </button>
       </div>

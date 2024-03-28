@@ -18,7 +18,8 @@ export default function Hamburger({
     <nav className="fixed right-0 top-0 z-30 flex h-full w-64 items-start justify-center bg-gradient-to-b from-teal-100 to-purple-100 px-6 pt-24 text-center text-xl font-light dark:from-teal-950 dark:to-purple-950">
       <button
         className="absolute right-8 top-8 duration-300 hover:scale-95 hover:text-teal-400"
-        onClick={closeMenu}>
+        onClick={closeMenu}
+        aria-label="Zavřít">
         <IconX size={40} stroke={1} />
       </button>
       <ul className="flex flex-col gap-6">

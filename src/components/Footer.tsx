@@ -9,12 +9,14 @@ export default function Footer() {
     <footer className="flex flex-col items-center justify-between gap-6 pb-8 text-center">
       <ul className="flex items-center gap-4">
         <li className="duration-300 hover:scale-110 hover:text-teal-400">
-          <a href="https://github.com/luciebuckova">
+          <a href="https://github.com/luciebuckova" aria-label="GitHub">
             <IconBrandGithub size={28} stroke={1} />
           </a>
         </li>
         <li className="duration-300 hover:scale-110 hover:text-teal-400">
-          <a href="https://www.linkedin.com/in/luciebuckova/">
+          <a
+            href="https://www.linkedin.com/in/luciebuckova/"
+            aria-label="LinkedIn">
             <IconBrandLinkedin size={28} stroke={1} />
           </a>
         </li>
