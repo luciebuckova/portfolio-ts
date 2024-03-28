@@ -14,7 +14,7 @@ import {
 
 export default function About() {
   return (
-    <Element name="about" className="min-h-screen py-8 md:py-32">
+    <Element name="about" className="py-16 md:py-32">
       <h3>O mně</h3>
       <p>
         Vystudovala jsem obor zubní lékařství, což v mém případě byl ale krok
@@ -41,7 +41,9 @@ export default function About() {
         Dále jsem absolvovala celou řadu delších či kratších kurzů, ve kterých
         jsem se&nbsp;naučila používat další technologie a nástroje.
       </p>
-      <h4 className="mt-16">Používané technologie & nástroje</h4>
+      <h4 className="mt-16 text-3xl font-medium">
+        Používané technologie & nástroje
+      </h4>
       <ul className="mx-auto mt-8 grid max-w-xs grid-cols-2 justify-items-center gap-8 p-8 text-purple-600 md:max-w-xl md:grid-cols-5 dark:text-purple-300">
         <li>
           <IconBrandHtml5 size={80} stroke={1} />

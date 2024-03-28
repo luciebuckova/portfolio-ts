@@ -7,12 +7,8 @@
   h3 {
     @apply text-5xl font-semibold uppercase text-teal-400;
   }
-  h2,
-  h4 {
+  h2 {
     @apply text-3xl font-medium;
-  }
-  h5 {
-    @apply text-2xl font-medium;
   }
   p {
     @apply mx-auto my-8 max-w-3xl text-lg font-light leading-8 md:text-xl;
@@ -39,7 +35,7 @@
   .btn-secondary {
     @apply rounded-xl border border-teal-400 bg-neutral-50 px-4 py-2 text-xl font-light text-teal-400 duration-500 hover:border-teal-400 hover:bg-teal-400 hover:text-neutral-50 hover:shadow-xl dark:bg-neutral-950 dark:hover:border-teal-600 dark:hover:bg-teal-600 md:text-2xl;
   }
-  .ball {
+  /* .ball {
     @apply fixed top-0 left-0 z-50 pointer-events-none;
     clip-path: polygon(
       50% 0%,
@@ -53,5 +49,5 @@
       2% 35%,
       39% 35%
     );
-  }
+  } */
 }

@@ -3,7 +3,7 @@ import Card from '@/components/Card';
 
 export default function Projects() {
   return (
-    <Element name="projects" className="min-h-screen py-8 md:py-32">
+    <Element name="projects" className="py-16 md:py-32">
       <h3>Projekty</h3>
       <p>
         Tady je pár projektů, na kterých jsem pracovala, a také technologie,
