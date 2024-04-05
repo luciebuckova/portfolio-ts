@@ -1,7 +1,6 @@
 'use client';
 import { useState, createContext } from 'react';
 import UseWindowSize from '@/components/UseWindowSize';
-import Cursor from '@/components/Cursor';
 import DefaultLayout from '@/layouts/DefaultLayout';
 import Hero from '@/layouts/Hero';
 import About from '@/layouts/About';
@@ -38,7 +37,6 @@ export default function Home({ font }: AppProps) {
             <Projects />
             <Contact />
           </DefaultLayout>
-          {/*  {isLargeScreen && <Cursor />} */}
         </body>
       </html>
     </ModeContext.Provider>

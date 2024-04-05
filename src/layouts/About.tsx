@@ -84,11 +84,12 @@ export default function About() {
       </ul>
       <p>
         Aktuálně pracuji na prohlubování svých znalostí <strong>Reactu</strong>,
-        který mě ve spojení <strong>Tailwind CSS</strong> opravdu uchvátil,
-        a&nbsp;zajímají mě možnosti využití JavaScriptových animací pomocí
-        knihoven three.js nebo GSAP. Za těch více než 20 let se technologie
-        používané ve vývoji webových stránek a aplikací rozrostly do takové
-        šíře, že téměř každý den objevím něco dalšího, co bych se ráda naučila.
+        který mě ve spojení s&nbsp;<strong>Tailwind CSS</strong> opravdu
+        uchvátil, a&nbsp;zajímají mě možnosti využití JavaScriptových animací
+        pomocí knihoven three.js nebo GSAP. Za těch více než 20 let
+        se&nbsp;technologie používané ve vývoji webových stránek a aplikací
+        rozrostly do&nbsp;takové šíře, že téměř každý den objevím něco dalšího,
+        co bych se ráda naučila.
       </p>
     </Element>
   );

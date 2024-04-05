@@ -24,15 +24,15 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: 'Lucie Bučková · frontend kodérka',
+  title: 'Lucie Bučková · Frontend Developer',
   description:
-    'Jsem junior frontend kodérka. Zamilovala jsem si zejména tvorbu webů kombinací React a Tailwind CSS. Neustále na sobě pracuji a snažím se nejen v tomto směru posouvat vpřed.',
+    'Jsem junior Frontend Developer. Zamilovala jsem si zejména tvorbu webů kombinací React a Tailwind CSS. Neustále na sobě pracuji a snažím se nejen v tomto směru posouvat vpřed.',
   openGraph: {
-    title: 'Lucie Bučková · frontend kodérka',
+    title: 'Lucie Bučková · Frontend Developer',
     description:
-      'Jsem junior frontend kodérka. Zamilovala jsem si zejména tvorbu webů kombinací React a Tailwind CSS. Neustále na sobě pracuji a snažím se nejen v tomto směru posouvat vpřed.',
+      'Jsem junior Frontend Developer. Zamilovala jsem si zejména tvorbu webů kombinací React a Tailwind CSS. Neustále na sobě pracuji a snažím se nejen v tomto směru posouvat vpřed.',
     url: 'https://www.luciebuckova.cz/',
-    siteName: 'Lucie Bučková · frontend kodérka',
+    siteName: 'Lucie Bučková · Frontend Developer',
     images: [
       {
         url: 'https://www.luciebuckova.cz/meta-image.webp',
