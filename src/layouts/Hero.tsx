@@ -11,7 +11,7 @@ export default function Hero() {
     <Element name="hero" className="pb-16 pt-20 md:py-32">
       <section>
         <h1>Lucie Bučková</h1>
-        <h2>junior frontend kodérka</h2>
+        <h2 className="mt-2">Junior Frontend Developer</h2>
         {isSmallScreen ? (
           <Image
             priority={true}

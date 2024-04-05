@@ -17,10 +17,6 @@ export default function About() {
     <Element name="about" className="py-16 md:py-32">
       <h3>O mně</h3>
       <p>
-        Vystudovala jsem obor zubní lékařství, což v mém případě byl ale krok
-        špatným směrem, který se teď ze všech sil snažím napravit.
-      </p>
-      <p>
         S vývojem webových stránek jsem se poprvé setkala asi ve 14 letech
         na&nbsp;gymnáziu, už tehdy mě tyto technologie nadchly a ve svém volném
         čase jsem dokonce vytvořila vlastní webové stránky. Tím to bohužel
@@ -87,12 +83,12 @@ export default function About() {
         </li>
       </ul>
       <p>
-        Aktuálně se učím <strong>React</strong>, který mě ve spojení s{' '}
-        <strong>Tailwind CSS</strong> opravdu uchvátil, a&nbsp;zajímají mě
-        možnosti využití Javascriptových animací pomocí knihoven three.js nebo
-        GSAP. Za těch více než 20 let se technologie používané ve vývoji
-        webových stránek a aplikací rozrostly do takové šíře, že téměř každý den
-        objevím něco dalšího, co bych se ráda naučila.
+        Aktuálně pracuji na prohlubování svých znalostí <strong>Reactu</strong>,
+        který mě ve spojení <strong>Tailwind CSS</strong> opravdu uchvátil,
+        a&nbsp;zajímají mě možnosti využití JavaScriptových animací pomocí
+        knihoven three.js nebo GSAP. Za těch více než 20 let se technologie
+        používané ve vývoji webových stránek a aplikací rozrostly do takové
+        šíře, že téměř každý den objevím něco dalšího, co bych se ráda naučila.
       </p>
     </Element>
   );

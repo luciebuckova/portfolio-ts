@@ -35,19 +35,4 @@
   .btn-secondary {
     @apply rounded-xl border border-teal-400 bg-neutral-50 px-4 py-2 text-xl font-light text-teal-400 duration-500 hover:border-teal-400 hover:bg-teal-400 hover:text-neutral-50 hover:shadow-xl dark:bg-neutral-950 dark:hover:border-teal-600 dark:hover:bg-teal-600 md:text-2xl;
   }
-  /* .ball {
-    @apply fixed top-0 left-0 z-50 pointer-events-none;
-    clip-path: polygon(
-      50% 0%,
-      61% 35%,
-      98% 35%,
-      68% 57%,
-      79% 91%,
-      50% 70%,
-      21% 91%,
-      32% 57%,
-      2% 35%,
-      39% 35%
-    );
-  } */
 }
