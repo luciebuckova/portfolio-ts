@@ -35,6 +35,15 @@ export default function Projects() {
             stack={['React', 'TypeScript', 'Tailwind CSS']}
           />
         </li>
+        <li>
+          <Card
+            title="Star Wars character app"
+            description="Seznam všech postav Star Wars s možností vyhledávání."
+            linkWeb="https://star-wars-character-seven.vercel.app/"
+            linkRepo="https://github.com/luciebuckova/star-wars-character"
+            stack={['React', 'TypeScript', 'Tailwind CSS', 'Next.js']}
+          />
+        </li>
       </ul>
     </Element>
   );
