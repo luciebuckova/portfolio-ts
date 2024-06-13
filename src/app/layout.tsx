@@ -24,15 +24,13 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: 'Lucie Bučková · Frontend Developer',
-  description:
-    'Jsem junior Frontend Developer. Zamilovala jsem si zejména tvorbu webů kombinací React a Tailwind CSS. Neustále na sobě pracuji a snažím se nejen v tomto směru posouvat vpřed.',
+  title: 'Lucie Bučková',
+  description: "Life isn't as serious as the mind makes it out to be.",
   openGraph: {
-    title: 'Lucie Bučková · Frontend Developer',
-    description:
-      'Jsem junior Frontend Developer. Zamilovala jsem si zejména tvorbu webů kombinací React a Tailwind CSS. Neustále na sobě pracuji a snažím se nejen v tomto směru posouvat vpřed.',
+    title: 'Lucie Bučková',
+    description: "Life isn't as serious as the mind makes it out to be.",
     url: 'https://www.luciebuckova.cz/',
-    siteName: 'Lucie Bučková · Frontend Developer',
+    siteName: 'Lucie Bučková',
     images: [
       {
         url: 'https://www.luciebuckova.cz/meta-image.webp',
